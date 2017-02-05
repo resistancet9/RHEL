@@ -1,7 +1,1 @@
-im am sam and i like ham. This is our first commit.
-a
 s
-d
-f
-sds
-this is the line thats added
