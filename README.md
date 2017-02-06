@@ -1,10 +1,10 @@
 # RHEL
 Sensu, Grafaana, InfluxDB complete setup on RHEL OS on AWS EC2.
 
-Document is incomplete. but there is single file(RHEL_CENTOS_Sensu_influxdb_grafana.sh) in which i've included everything thats need to be setup.
+The Document is incomplete. but there is single file(RHEL_CENTOS_Sensu_influxdb_grafana.sh) in which i've included everything thats need to be setup.
 Execute this script and make sure to change Public IP Address of your sensu server in the file '/etc/sensu/conf.d/handlers.json' after executing.
 
-once you change the IP Address, restart all the services
+Once you change the IP Address, restart all the services
 
 'sudo service sensu-server restart && service sensu-api restart && service sensu-client restart && service uchiwa restart && service grafana-server restart && service influxd restart'
 
