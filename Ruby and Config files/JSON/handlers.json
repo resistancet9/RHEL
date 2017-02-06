@@ -1,0 +1,16 @@
+{
+  "handlers": {
+     "influx-tcp": {
+       "type": "pipe",
+       "command": "/opt/sensu/embedded/bin/metrics-influxdb.rb"
+     },	
+"influxdb_udp": {
+      "type": "udp",
+      "socket": {
+        "host": "54.254.211.179",
+        "port": 8089
+      },
+      "mutator": "influxdb_line_protocol"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "influxdb": {
+        "host"          : "localhost",
+        "port"          : "8086",
+        "username"      : "test",
+        "password"      : "test",
+        "database"      : "sensu",
+	"status"        : true
+    }
+}

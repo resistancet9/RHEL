@@ -1,0 +1,8 @@
+{
+"client":{
+"name":"self_server",
+"address":"10.0.1.177",
+"subscriptions":["self"],
+"safe_mode":true
+}
+}

@@ -1,0 +1,12 @@
+{
+"checks": {
+	"load_metrics": {
+                        "type": "metric",
+                        "command": "/opt/sensu/embedded/bin/metrics-load.rb",
+                        "subscribers": ["self"],
+                        "interval": 10,
+                        "standalone": false,
+                        "handlers": ["debug","influxdb_udp"]
+                }
+	}
+}
